@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Notes</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    
+</head>
+<body>
+    <div class="center">
+        
+        <h1>Tu Recordadora </h1>
+        
+        <img class="rounded"src="https://vignette.wikia.nocookie.net/es.harrypotter/images/3/35/Recordadora.gif/revision/latest?cb=20140718183635" alt="">
+        <br><br>
+        
+        <form action="javascript: void(0)">
+            <label for="">¿Qué deseas recordar?</label>
+            <input type="text" id="txt_reminder" class="form-control" required ><br>
+        </form>
+
+        <div>
+            <button class="btn btn-outline-success" onclick="remind()" id="btn_add">Agregar tarea</button>
+            <button class="btn btn-outline-danger" onclick="deleteAll()">Eliminar todo</button>
+        </div>
+        <hr>
+        <small id="information" class="text-info inf">Haz clic sobre las tareas para marcarlas o desmarcarlas como realizadas</small>
+    </div>
+    
+  
+    <div id="notas" class="center"></div>
+    <script src="rem_functions.js"></script>
+</body>
+</html>

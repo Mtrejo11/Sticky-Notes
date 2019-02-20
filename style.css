@@ -1,0 +1,37 @@
+.center {
+    text-align: center;
+    margin: 0 auto;
+    width: 60%;
+    padding: 10px;
+  }
+
+.ex{
+  margin: 5px;
+  width: 15px;
+  height: 15px;
+  float: right;
+}
+.texto{
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+#notas{
+  width: 50%;
+}
+
+body{
+  color: white;
+  background-color: #263238;
+}
+
+input{
+  text-align: center;
+}
+button{
+  margin: 0 15px;
+}
+
+.inf{
+  visibility: hidden;
+}
